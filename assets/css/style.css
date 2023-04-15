@@ -281,6 +281,7 @@ main-content CSS
 .content p span {
   color: var(--primary);
   font-weight: 500;
+  word-wrap: break-word;
 }
 
 .content .list-menu {
@@ -327,9 +328,6 @@ main-content CSS
 .credits ul li {
   list-style-type: disc;
 }
-
-
-
 
 /*===========================================================
 mobile nav CSS
@@ -426,11 +424,6 @@ mobile nav CSS
   .title h3 {
     font-size: 20px;
     line-height: 30px;
-  }
-
-  .content h4 {
-    font-size: 18px;
-    line-height: 26px;
   }
 
   .content h3 {
