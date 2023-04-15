@@ -275,6 +275,7 @@ main-content CSS
   line-height: 32px;
   font-weight: 400;
   color: var(--secondary-text);
+  word-wrap: break-word;
 }
 
 .content p a,
@@ -364,6 +365,7 @@ mobile nav CSS
   width: 100%;
   z-index: 20;
   background-color: var(--white);
+  z-index: 20;
 }
 
 .mobile-nav button {
@@ -428,6 +430,7 @@ mobile nav CSS
 
   .content h3 {
     font-size: 22px;
+    line-height: 32px;
   }
 
   .content h4 {
